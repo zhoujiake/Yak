@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mytest">#53b257</color>
+    <!--头部导航栏标题颜色-->
+
+    <color name="guid_color_default">#e2e2e2</color>
+    <color name="guid_color">#f9f8f8</color>
+
+</resources>

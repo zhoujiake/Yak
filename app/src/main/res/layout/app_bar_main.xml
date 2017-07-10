@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".action.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:background="@color/mytest" />
+
+            <TextView
+                android:id="@+id/bookshelf"
+                android:layout_width="190px"
+                android:layout_centerVertical="true"
+                style="@style/guid_Theme"
+                android:layout_toLeftOf="@+id/books"
+                android:text="དཔེ་སྒྲོམ།"
+                android:layout_height="80px" />
+
+            <TextView
+                android:id="@+id/books"
+                android:layout_width="190px"
+                style="@style/guid_Theme_default"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="དཔེ་དེབ།"
+                android:layout_height="80px" />
+
+            <TextView
+                android:id="@+id/fictionboods"
+                android:layout_width="190px"
+                android:text="སྒྲུང་དེབ།"
+                style="@style/guid_Theme_default"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/books"
+                android:fontFamily="sans-serif"
+                android:layout_height="80px" />
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>

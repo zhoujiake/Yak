@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/collection"
+            android:title="ངའི་ཉར་ཚགས།" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/exprience"
+            android:title="ངས་ལྟས་ཟིན་པ།" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/note"
+            android:title="ངའི་བསམ་བློ།" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/feedback"
+            android:title="གནས་ཚུལ་ཕྱིར་འདྲེན།" />
+
+        <item
+            android:id="@+id/nav_manage1"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="སྒྲིག་འགོད།" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_out"
+                android:icon="@drawable/sign_out"
+                android:title="ཐོ་འཇུག་ལས་ཕྱིར་ཐོན།" />
+        </menu>
+    </item>
+</menu>

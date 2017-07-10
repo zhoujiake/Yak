@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_96465de9772b2f44c897de496c58b02d10a148b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f93d617cac7efd15126acfc495a0550e694d1d19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_09a7dc4b96f06afde47fdb66f0fcbc3949eab668\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="09515af12c0ec10bafd0e5cc3756c08daeeb08a8">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c17bb96b365823485f8a565c65560bfc6fe406e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2ec354c0ae9540f773db95eaed8efb5480e6ac0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_97c7becf3f8d524a4f0aff67fe2f20b6a82be54a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ad7973596bf1461e4e3f5b9341fc6438466456ce">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_842dfe8da462ab72cc1ec1051dce14bad182d2fc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_57fbfad4f01be68054dacbcdeab9a8744b3084b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_8f47b1eea9d126578cf63e273b0961f1bbf5ae3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_710ac775e43df299fc843e1a6e6d3dfb43e97123\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_fa0c3c96ebf8ef6791af5c89251ed5bfe518a148\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_3fae47743b3be2ed9427a76e12905e53f66c4ec8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_8c3d7ca66e29382de77e5bf5642a8f0cc4ba407b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidIDE\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_799d97612ec5254c880637168c6540e454b8c99e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_9ad138f94692a764772b218db376b6656fca9d51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_37aa47adca997d37b7465ffc9ee3c3bd9666ddc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_64a2c1bb61001618dbc231309cad427b02c5721b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_7ece650b0ede19f83f5a77e52612c098de5bf111\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_project\Yak\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Android_project\Yak\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_14e4ba39fbebd8350965914093c9e7450d535c03\classes.dex" />
+    </item>
+
+</items>
