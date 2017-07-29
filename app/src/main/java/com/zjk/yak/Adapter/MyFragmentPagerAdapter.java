@@ -1,4 +1,4 @@
-package com.zjk.yak.action.Adapter;
+package com.zjk.yak.Adapter;
 
 
 import android.support.v4.app.Fragment;
@@ -6,10 +6,10 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 
-import com.zjk.yak.action.BooksFragment;
-import com.zjk.yak.action.BookshelfFragment;
-import com.zjk.yak.action.ConstantClass;
-import com.zjk.yak.action.FictionBoodsFragment;
+import com.zjk.yak.BooksFragment;
+import com.zjk.yak.BookshelfFragment;
+import com.zjk.yak.ConstantClass;
+import com.zjk.yak.FictionBoodsFragment;
 
 /**
  * Created by 13070 on 2017/7/9.

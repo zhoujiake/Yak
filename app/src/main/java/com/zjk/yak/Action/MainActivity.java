@@ -1,6 +1,5 @@
-package com.zjk.yak.action;
+package com.zjk.yak.Action;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -15,14 +14,10 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
-
+import com.zjk.yak.Adapter.MyFragmentPagerAdapter;
 import com.zjk.yak.R;
-import com.zjk.yak.action.Adapter.MyFragmentPagerAdapter;
 
-import static android.webkit.ConsoleMessage.MessageLevel.LOG;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,View.OnClickListener

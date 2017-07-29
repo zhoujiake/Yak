@@ -1,4 +1,4 @@
-package com.zjk.yak.action;
+package com.zjk.yak.Fragment;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -14,18 +14,18 @@ import com.zjk.yak.R;
  * Created by 13070 on 2017/7/9.
  */
 
-public class FictionBoodsFragment extends Fragment{
+public class BookshelfFragment extends Fragment {
 
-    public FictionBoodsFragment(){
+    public BookshelfFragment(){
 
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fg_fictionboods, container, false);
+        View view = inflater.inflate(R.layout.fg_bookshelf, container, false);
         TextView txt_content = (TextView) view.findViewById(R.id.txt_content);
-        txt_content.setText("第三个Fragment");
-        Log.e("HEHE", "3日狗");
+        txt_content.setText("第一个Fragment");
+        Log.e("HEHE", "2日狗");
         return view;
     }
 }

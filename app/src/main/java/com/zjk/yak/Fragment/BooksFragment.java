@@ -1,4 +1,4 @@
-package com.zjk.yak.action;
+package com.zjk.yak.Fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
