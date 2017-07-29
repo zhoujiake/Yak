@@ -6,16 +6,16 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 
-import com.zjk.yak.BooksFragment;
-import com.zjk.yak.BookshelfFragment;
-import com.zjk.yak.ConstantClass;
-import com.zjk.yak.FictionBoodsFragment;
+import com.zjk.yak.Fragment.BooksFragment;
+import com.zjk.yak.Fragment.BookshelfFragment;
+import com.zjk.yak.Utils.ConstantClass;
+import com.zjk.yak.Fragment.FictionBoodsFragment;
 
 /**
  * Created by 13070 on 2017/7/9.
  */
 
-public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
+public class MainPagerAdapter extends FragmentPagerAdapter {
 
 
     private final int PAGER_COUNT = 3;
@@ -24,7 +24,7 @@ public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
     private FictionBoodsFragment fictionBoodsFragment = null;
 
 
-    public MyFragmentPagerAdapter(FragmentManager fm) {
+    public MainPagerAdapter(FragmentManager fm) {
         super(fm);
         bookshelfFragment = new BookshelfFragment();
         booksFragment = new BooksFragment();

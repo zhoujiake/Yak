@@ -1,6 +1,7 @@
 package com.zjk.yak.Action;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -15,8 +16,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import com.zjk.yak.Adapter.MyFragmentPagerAdapter;
+import com.zjk.yak.Adapter.MainPagerAdapter;
 import com.zjk.yak.R;
+import com.zjk.yak.Utils.ConstantClass;
 
 
 public class MainActivity extends AppCompatActivity
@@ -30,7 +32,7 @@ public class MainActivity extends AppCompatActivity
     //viewPager
     private ViewPager vpager;
     //Adapter of ViewPager
-    private MyFragmentPagerAdapter mAdapter;
+    private MainPagerAdapter mAdapter;
 
 
 
@@ -57,11 +59,13 @@ public class MainActivity extends AppCompatActivity
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
+        //初始化公共类
+        ConstantClass.FRAGMENT_MANAGER = getSupportFragmentManager();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         //初始化
-        mAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager());
+        mAdapter = new MainPagerAdapter(ConstantClass.FRAGMENT_MANAGER);
         bindViews();
     }
 
@@ -91,48 +95,8 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
 
     /**
      * 视图点击监听
@@ -194,5 +158,10 @@ public class MainActivity extends AppCompatActivity
                     break;
             }
         }
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        return false;
     }
 }

@@ -5,56 +5,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".action.MainActivity">
+    tools:context=".Action.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60sp"
         android:theme="@style/AppTheme.AppBarOverlay">
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="60sp">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:popupTheme="@style/AppTheme.PopupOverlay"
-                android:background="@color/mytest" />
+                android:background="@color/bar_color" />
 
             <TextView
                 android:id="@+id/bookshelf"
                 android:layout_width="190px"
+                android:paddingTop="10px"
+                android:layout_height="100px"
                 android:layout_centerVertical="true"
                 style="@style/guid_Theme"
                 android:layout_toLeftOf="@+id/books"
-                android:text="དཔེ་སྒྲོམ།"
-                android:layout_height="80px" />
+                android:text="@string/bookshelf"/>
 
             <TextView
                 android:id="@+id/books"
                 android:layout_width="190px"
+                android:paddingTop="10px"
+                android:layout_height="100px"
                 style="@style/guid_Theme_default"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:text="དཔེ་དེབ།"
-                android:layout_height="80px" />
+                android:text="@string/books"/>
 
             <TextView
                 android:id="@+id/fictionboods"
                 android:layout_width="190px"
-                android:text="སྒྲུང་དེབ།"
+                android:paddingTop="10px"
+                android:layout_height="100px"
+                android:text="@string/fiction"
                 style="@style/guid_Theme_default"
                 android:layout_centerVertical="true"
-                android:layout_toRightOf="@+id/books"
-                android:fontFamily="sans-serif"
-                android:layout_height="80px" />
+                android:layout_toRightOf="@+id/books" />
+
+
+            <ImageView
+                android:layout_width="105px"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10px"
+                android:paddingRight="38px"
+                android:paddingTop="10px"
+                android:paddingBottom="10px"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:src="@drawable/sear_bar_selector"
+               />
 
         </RelativeLayout>
-
     </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_main" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -63,5 +76,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <include layout="@layout/content_main" />
 
 </android.support.design.widget.CoordinatorLayout>

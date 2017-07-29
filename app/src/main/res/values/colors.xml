@@ -3,10 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="mytest">#53b257</color>
+    <color name="bar_color">#53b257</color>
+    <color name="theme_color">#459948</color>
     <!--头部导航栏标题颜色-->
 
     <color name="guid_color_default">#e2e2e2</color>
     <color name="guid_color">#f9f8f8</color>
+
+    <color name="transparent">#004a4d4f</color>
 
 </resources>

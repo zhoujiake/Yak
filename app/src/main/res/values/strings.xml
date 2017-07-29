@@ -5,5 +5,21 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="action_settings">Settings</string>
+
     <string name="menu_head">རུས་མིག</string>
+
+    <string name="books">དཔེ་སྒྲོམ།</string>
+    <string name="bookshelf">དཔེ་དེབ།</string>
+    <string name="fiction">སྒྲུང་དེབ།</string>
+
+    <string name="books_recommend">འོས་སྦྱོར།</string>
+    <string name="books_freebooks">རིན་མེད།</string>
+    <string name="books_column">ཆད་བསྒྲིགས་ལེ་ཚན།</string>
+    <string name="books_classication">རིག་དབྱེ།</string>
+
+    <string name="fiction_recommend">འོས་སྦྱོར།</string>
+    <string name="fiction_freebooks">རིན་མེད།</string>
+    <string name="fiction_column">རིམ་བསྒྲིགས་པང་།</string>
+    <string name="fiction_classication">རིག་དབྱེ།</string>
+
 </resources>
