@@ -1,5 +1,6 @@
 package com.zjk.yak.common;
 
+import android.content.Context;
 import android.support.v4.app.FragmentManager;
 
 /**
@@ -16,5 +17,6 @@ public class ConstantClass {
 
     //公共的类
     public static FragmentManager  FRAGMENT_MANAGER = null;
+    public static Context MAIN_COMMON_CONTEXT= null;
 
 }
