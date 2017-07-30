@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import com.zjk.yak.ui.fragment.BooksFragment;
 import com.zjk.yak.ui.fragment.BookshelfFragment;
-import com.zjk.yak.Utils.ConstantClass;
+import com.zjk.yak.common.ConstantClass;
 import com.zjk.yak.ui.fragment.FictionBoodsFragment;
 
 /**

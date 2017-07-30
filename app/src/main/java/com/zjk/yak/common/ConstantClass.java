@@ -13,7 +13,6 @@ public class ConstantClass {
     public static final int PAGE_ONE = 0;
     public static final int PAGE_TWO = 1;
     public static final int PAGE_THREE = 2;
-    public static final int PAGE_FOUR = 3;
 
     //公共的类
     public static FragmentManager  FRAGMENT_MANAGER = null;

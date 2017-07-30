@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 
 import com.zjk.yak.ui.adapter.BooksPagerAdapter;
 import com.zjk.yak.R;
-import com.zjk.yak.Utils.ConstantClass;
+import com.zjk.yak.common.ConstantClass;
 
 /**
  * Created by 13070 on 2017/7/9.

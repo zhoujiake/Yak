@@ -17,7 +17,7 @@ import android.view.View;
 import android.widget.TextView;
 import com.zjk.yak.ui.adapter.MainPagerAdapter;
 import com.zjk.yak.R;
-import com.zjk.yak.Utils.ConstantClass;
+import com.zjk.yak.common.ConstantClass;
 
 
 public class MainActivity extends AppCompatActivity
