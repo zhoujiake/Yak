@@ -1,21 +1,42 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'me.tatarka.retrolambda'
 
 android {
     compileSdkVersion 24
     buildToolsVersion "25.0.3"
     defaultConfig {
         applicationId "com.zjk.yak"
-        minSdkVersion 22
+        minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
             minifyEnabled false
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+
+    compileOptions {
+        //使用JAVA8语法解析
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath'com.android.tools.build:gradle:1.2.3'
+        classpath'com.neenbedankt.gradle.plugins:android-apt:1.4'//Added
+        classpath 'me.tatarka:gradle-retrolambda:3.2.0'
     }
 }
 
@@ -24,9 +45,45 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:24.2.1'
+    // Android support library
     compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:cardview-v7:24.2.1'
     compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:customtabs:24.2.1'
+    //Butter Knife 依赖注入
+    compile 'com.jakewharton:butterknife:8.0.1'
+    apt 'com.jakewharton:butterknife-compiler:8.0.1'
+    //RxJava & RxAndroid 解决异步处理复杂问题
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'io.reactivex:rxjava:1.1.6'
+    //okhttp3 & okio  网络框架和和读写文件框架
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.squareup.okio:okio:1.9.0'
+    //retrofit2 网络框架
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    //Glide  Google推荐的图片加载库Glide
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar'
+    //gson  Gson是谷歌发布的一个json解析框架
+    compile 'com.google.code.gson:gson:2.7'
+    //sqlbrite 数据库操作框架
+    compile 'com.squareup.sqlbrite:sqlbrite:0.7.0'
+    //ExpandTextView  缩放文本框
+    compile 'com.hymane.expandtextview:library:1.0.1'
+    //TagFlowLayout  一款针对Tag的布局
+    compile 'com.github.hymanme.tagflowlayout:tagflowlayout:0.2.2'
+    //FlycoLabelView 一个简单的Android标签控件
+    compile 'com.flyco.labelview:FlycoLabelView_Lib:1.0.2@aar'
+    //ParticleView  粒子视图
+    compile 'me.wangyuwei:ParticleView:1.0.3'
+    //align-text-view
+    compile 'me.codeboy.android:align-text-view:2.3.0'
     testCompile 'junit:junit:4.12'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support:support-annotations:24.2.1'
 }
