@@ -3,31 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.zjk.yak">
 
-
-    <!-- 检测网络状态 -->
+    <!--&lt;!&ndash; 检测网络状态 &ndash;&gt;
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!-- 缓存资源优先存入SDcard -->
+    &lt;!&ndash; 缓存资源优先存入SDcard &ndash;&gt;
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
-    <!-- 允许应用程序联网，以便向我们的服务器端发送数据 -->
+    &lt;!&ndash; 允许应用程序联网，以便向我们的服务器端发送数据 &ndash;&gt;
     <uses-permission android:name="android.permission.INTERNET" />
-    <!--相机-->
+    &lt;!&ndash;相机&ndash;&gt;
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />-->
 
     <application
+        android:name=".BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Yak"
         android:supportsRtl="true"
         tools:replace="android:label"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.AppCompat.DayNight">
 
         <activity
-            android:name=".ui.action.MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".ui.action.SplashActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+            android:theme="@style/AppTheme.DayNight.NoActionBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,8 +36,15 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".ui.action.MainActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.DayNight.NoActionBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+        </activity>
+
         <activity android:name=".ui.action.PageActivity"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            android:theme="@style/AppTheme.DayNight.NoActionBar.Fullscreen" >
         </activity>
 
 

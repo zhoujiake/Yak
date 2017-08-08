@@ -22,4 +22,8 @@
     <string name="fiction_column">རིམ་བསྒྲིགས་པང་།</string>
     <string name="fiction_classication">རིག་དབྱེ།</string>
 
+
+    <string name="share_dialog_title">分享</string>
+    <string name="action_search">Search</string>
+
 </resources>

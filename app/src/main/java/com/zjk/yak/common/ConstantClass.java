@@ -8,7 +8,8 @@ import android.support.v4.app.FragmentManager;
  */
 
 public class ConstantClass {
-
+    public static final String THEME_MODEL = "theme_model";
+    public static final String USER_GENDER = "user_gender";
 
     //几个代表页面的常量
     public static final int PAGE_ONE = 0;

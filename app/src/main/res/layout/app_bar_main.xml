@@ -53,19 +53,6 @@
                 android:layout_toRightOf="@+id/books" />
 
 
-            <ImageView
-                android:layout_width="105px"
-                android:layout_height="wrap_content"
-                android:paddingLeft="10px"
-                android:paddingRight="38px"
-                android:paddingTop="10px"
-                android:paddingBottom="10px"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:clickable="true"
-                android:src="@drawable/sear_bar_selector"
-               />
-
         </RelativeLayout>
     </android.support.design.widget.AppBarLayout>
 
